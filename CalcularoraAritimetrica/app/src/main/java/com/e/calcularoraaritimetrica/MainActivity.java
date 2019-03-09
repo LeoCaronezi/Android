@@ -34,28 +34,41 @@ public class MainActivity extends AppCompatActivity {
         soma.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                
+                double numero1 = Double.parseDouble(num1.getText().toString());
+                double numero2 = Double.parseDouble(num2.getText().toString());
+                double result = numero1 + numero2;
+                resultado.setText(Double.toString(result));
             }
         });
 
-         subtracao.setOnClickListener(new View.OnClickListener() {
+        subtracao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                double numero1 = Double.parseDouble(num1.getText().toString());
+                double numero2 = Double.parseDouble(num2.getText().toString());
+                double result = numero1 - numero2;
+                resultado.setText(Double.toString(result));
             }
         });
 
-          mutiplicacao.setOnClickListener(new View.OnClickListener() {
+        mutiplicacao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                double numero1 = Double.parseDouble(num1.getText().toString());
+                double numero2 = Double.parseDouble(num2.getText().toString());
+                double result = numero1 * numero2;
+                resultado.setText(Double.toString(result));
             }
         });
 
-         divisao.setOnClickListener(new View.OnClickListener() {
+        divisao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                double numero1 = Double.parseDouble(num1.getText().toString());
+                double numero2 = Double.parseDouble(num2.getText().toString());
+                double result = numero1 / numero2;
+                resultado.setText(Double.toString(result));
             }
         });
-}
+    }
+    }
