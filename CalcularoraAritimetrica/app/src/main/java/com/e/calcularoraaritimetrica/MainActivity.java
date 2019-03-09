@@ -8,13 +8,13 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-     private EditText  num1;
-     private EditText  num2;
-     private Button    soma;
-     private Button   divisao;
-     private Button   subtracao;
-     private Button   mutiplicacao;
-     private TextView resultado;
+    private EditText num1;
+    private EditText num2;
+    private Button soma;
+    private Button divisao;
+    private Button subtracao;
+    private Button mutiplicacao;
+    private TextView resultado;
 
 
     @Override
@@ -22,11 +22,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        num1 = (EditText) findViewById (R.id.ID_NUM1editText);
-        num2 = (EditText) findViewById (R.id.ID_NUM2editText2);
-        soma = (Button)   findViewById (R.id.ID_SOMAbutton);
-        subtracao = (Button) findViewById (R.id.ID_SOMAbutton);
-        mutiplicacao =(Button) findViewById((R.id.ID_MUTIPLICACAObutton3);
+        num1 = (EditText) findViewById(R.id.ID_NUM1editText);
+        num2 = (EditText) findViewById(R.id.ID_NUM2editText2);
+        soma = (Button) findViewById(R.id.ID_SOMAbutton);
+        subtracao = (Button) findViewById(R.id.ID_SUBTRACAObutton2);
+        mutiplicacao = (Button) findViewById(R.id.ID_MUTIPLICACAObutton3);
         divisao = (Button) findViewById(R.id.ID_DIVISAObutton4);
         resultado = (TextView) findViewById(R.id.ID_RESULTADOtextView3);
 
@@ -71,4 +71,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    }
+}
