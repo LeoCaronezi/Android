@@ -26,7 +26,11 @@ public class MainActivity extends AppCompatActivity {
        calcular.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
-               double alt =
+               double alt = Double.parseDouble(altura.getText().toString());
+               double Peso = Double.parseDouble(peso.getText().toString());
+               double imc =  Peso/(alt*alt);
+                resultado.setText(Double.toString(imc));
+
            }
        });
     }
