@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<TableRow>
+ <TextView
+      android:layout_height="wrap_content"
+      android:layout_weight="wrap_content"
+      android:id="@+id/textNome"
+      android:text="@string/nome"
+      android:textSize="30dp"     />
+
+   <EditText
+       android:layout_weight="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@id/textNome"
+       />
+</Table>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textIdioma"
+            android:layout_height="wrap_content"
+            android:layout_weight="wrap_content"
+            android:text="@string/idioma"
+            android:textSize="30dp" />
+
+    </TableRow>
+</TableLayout>
