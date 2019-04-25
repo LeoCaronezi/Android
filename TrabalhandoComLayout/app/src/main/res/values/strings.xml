@@ -2,4 +2,9 @@
     <string name="app_name">TrabalhandoComLayout</string>
     <string name="nome">Nome :</string>
     <string name="idioma">idoma:</string>
+    <string name="inglês">Inglês</string>
+    <string name="alemão">Alemão</string>
+    <string name="TrabalahandoComLaouy"> Testando Esta merda</string>
+    <string name="Taok"> Testando 123 esta coisa </string>
+    <string name="btn_botao">clique aqui </string>
 </resources>
