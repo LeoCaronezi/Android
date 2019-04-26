@@ -8,64 +8,47 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="188dp"
-        android:text="Nome do Produto:"
+        android:layout_width="154dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="44dp"
+        android:
+        android:text="Materia Prima:"
+        android:textSize="10pt"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/NomeDoProdutoeditText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="176dp"
-        android:layout_marginEnd="8dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.14"
-        app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
-        android:layout_height="16dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="100dp"
-        android:text="Codigo Do Produto:"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Peso"
+        android:textSize="10pt"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="53dp" />
 
     <EditText
-        android:id="@+id/CodigoDoProdutoeditText2"
-        android:layout_width="76dp"
+        android:id="@+id/materiaPrima"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginStart="12dp"
         android:ems="10"
-        android:inputType="number"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <EditText
+        android:id="@+id/peso"
+        android:layout_width="126dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="numberPassword"
         app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/NomeDoProdutoeditText" />
-
-    <Button
-        android:id="@+id/Comprabutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Comprar"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="396dp" />
-
-    <Button
-        android:id="@+id/Venderbutton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Vender"
-        tools:layout_editor_absoluteX="127dp"
-        tools:layout_editor_absoluteY="395dp" />
+        app:layout_constraintTop_toBottomOf="@+id/materiaPrima" />
 
 </android.support.constraint.ConstraintLayout>
 
