@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AplicativoDeImc</string>
+    <string name="Digite_seu_peso">Digite seu peso:</string>
+    <string name="Digite_sua_altura">Digire sua altura:</string>
+    <string name="Botao_calcular">Calcular:</string>
+    <string name="Seu_imc_e"> Seu imc e :</string>
+    <string name="Situacao_do_seu_imc"> Situação do seu imc</string>
+    <string name="Limpar">Limpar</string>
+</resources>

@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">TrabalhandoComListwie</string>
-    <string name="txt_nome"> nome :</string>
-    <string name="txt_idade"> idade</string>
-    <string name="txt_pedido"> pedido</string>
-    <string name="txt_contador">contador</string>
-    <string name="btn_adicionarCarinho">adiconar carrinho </string>
-</resources>
