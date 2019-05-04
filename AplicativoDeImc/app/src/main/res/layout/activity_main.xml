@@ -53,7 +53,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="84dp"
         android:text="@string/Botao_calcular"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
@@ -95,7 +95,6 @@
         android:layout_marginTop="28dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
         app:layout_constraintStart_toEndOf="@+id/textView4"
         app:layout_constraintTop_toBottomOf="@+id/ResultadoImc" />
 
@@ -103,8 +102,8 @@
         android:id="@+id/Limpar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="76dp"
         android:text="@string/Limpar"
         app:layout_constraintStart_toEndOf="@+id/Calcular"
         app:layout_constraintTop_toBottomOf="@+id/ApresentaSituacao" />

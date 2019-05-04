@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 pesos = Double.parseDouble(peso.getText().toString());
                 alturas =Double.parseDouble(altura.getText().toString());
                 imc = (pesos)/ (alturas*alturas);
-               // resultadoImc.setText(imc);
+                resultadoImc.setText(Double.toString(imc));
                 
                 
                 if (imc <=18.5){
@@ -55,6 +55,10 @@ public class MainActivity extends AppCompatActivity {
         limpar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+             altura.setText("");
+             peso.setText("");
+             statusimc.setText("");
+             resultadoImc.setText("");
 
             }
         });
