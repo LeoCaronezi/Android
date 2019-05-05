@@ -2,7 +2,12 @@
     <string name="app_name">Exemplo3</string>
     <string name="cabecalho">Qual curso você deseja escolher:</string>
     <string name="ingles">Inglês</string>
-    <String name="japones">Japonês</String>
     <string name="kantones">Kantones</string>
+    <string name="frances">Francês</string>
+    <String name="Japones">Japonês</String>
+    <string name="Exibir">Exibir</string>
+    <string name="Desmarcar">Desmarcar</string>
+    <string name="Quantidade_De_Itens_Selecionados">Quantidade de itens selecionados:</string>
+
 
 </resources>
