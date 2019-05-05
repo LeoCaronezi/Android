@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Exemplo3</string>
+    <string name="cabecalho">Qual curso você deseja escolher:</string>
+    <string name="ingles">Inglês</string>
+    <String name="japones">Japonês</String>
+    <string name="kantones">Kantones</string>
+
 </resources>
