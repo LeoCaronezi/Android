@@ -4,7 +4,7 @@
     <string name="ingles">Inglês</string>
     <string name="kantones">Kantones</string>
     <string name="frances">Francês</string>
-    <String name="Japones">Japonês</String>
+     //removido a e string name Japones, para verifica se o erro perciste.
     <string name="Exibir">Exibir</string>
     <string name="Desmarcar">Desmarcar</string>
     <string name="Quantidade_De_Itens_Selecionados">Quantidade de itens selecionados:</string>
