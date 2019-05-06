@@ -58,27 +58,29 @@
         android:id="@+id/Exibir"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="56dp"
         android:text="@string/Exibir"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox4"
-        tools:layout_editor_absoluteX="36dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
 
     <Button
         android:id="@+id/Desmarcar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="56dp"
         android:text="@string/Desmarcar"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox4"
-        tools:layout_editor_absoluteX="134dp" />
+        app:layout_constraintStart_toEndOf="@+id/Exibir"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="68dp"
         android:text="@string/Quantidade_De_Itens_Selecionados"
         app:layout_constraintTop_toBottomOf="@+id/Exibir"
-        tools:layout_editor_absoluteX="24dp" />
+        tools:layout_editor_absoluteX="79dp" />
 
 </android.support.constraint.ConstraintLayout>
